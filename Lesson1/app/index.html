@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>TeachMeSkills/ANALYTICS</title>
+    <base href="/" />
+
+<!--     <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css"> -->
+
+
+
+
+<!--     <script src="libs/jquery/dist/jquery.js"></script>
+    <script src="libs/bootstrap/dist/js/bootstrap.js"></script> -->
+    <script src="libs/angular/angular.js"></script>
+    <!-- <script src="libs/angular-ui-router/release/angular-ui-router.min.js"></script> -->
+
+    <script src="js/main.js"></script>
+ <!-- -->
+
+</head>
+
+<body ng-controller="mycontroller">
+
+
+<div>
+    <p> {{ inputVar }}</p>
+<input type="text" name="" ng-model="inputVar">
+
+<input type="text" name="" ng-model="inputVar">
+
+<button ng-click="func()">Вывести в консоль</button>
+
+
+<div>
+    <p ng-if="flag">Некий текст</p>
+</div>
+
+<button ng-click="flag = !flag">Toggle</button>
+
+</div>
+
+
+</body>
+</html>
